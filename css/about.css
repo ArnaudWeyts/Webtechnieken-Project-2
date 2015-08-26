@@ -1,0 +1,72 @@
+/**=====================================
+*				HEADER
+======================================*/
+
+#mainmenu #about a {
+	color: #308930;
+}
+
+
+/**=====================================
+*				CONTENT
+======================================*/
+
+#introduction {
+	font-size: 2rem;
+	font-weight: 300;
+	width: 75%;
+	margin-top: 4rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.column {
+	width: 50%;
+	float: left;
+}
+
+article {
+	margin: 4rem 2rem;
+}
+
+article h1 {
+	font-size: 2.7rem;
+	font-weight: normal;
+	margin-bottom: 2rem;
+}
+
+article img {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+article p {
+	font-size: 1.7rem;
+	font-weight: 400;
+}
+
+/* =====================================
+*  			MEDIAQUERIES
+===================================== */
+
+@media (max-width: 35em) {
+	.column {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media (max-width: 25em) {
+	.smallbanner div h2 {
+		font-size: 3rem;
+	}
+	#introduction {
+		font-size: 1.7rem;
+	}
+	article h1 {
+		font-size: 2.1rem;
+	}
+	article p {
+		font-size: 1.5rem;
+	}
+}
