@@ -20,6 +20,8 @@
 	height: 32rem;
 	background-image: url(../img/group_of_scientists.jpg);
 	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 
 }
 
